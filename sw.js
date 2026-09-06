@@ -1,4 +1,4 @@
-const CACHE = 'urban-rider-v1';
+const CACHE = 'urban-rider-v2';
 const APP = ['./','./index.html','./manifest.webmanifest','./icons/icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(c => c.addAll(APP)).then(() => self.skipWaiting()));
