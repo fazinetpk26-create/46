@@ -1,0 +1,14 @@
+{
+  "name": "Urban Rider 3D",
+  "short_name": "Urban Rider",
+  "description": "3D urban bike riding game with engine sound and touch controls.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#87ceeb",
+  "theme_color": "#111827",
+  "icons": [
+    {"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
